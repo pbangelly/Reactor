@@ -16,6 +16,8 @@ export default () =>(
     color:#ffffff;
     letter-spacing:0.6px;
     text-align:center;
+    justify-content: center;
+    align-items: center;
 }
 img { 
     width: 100%;

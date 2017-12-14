@@ -1,21 +1,16 @@
 import Layout from './comps/Layout'
 
 export default () =>(
-<Layout>
+<div className='container'>
     <div className='row' id='signup-form'>
-        <div className='col'>
-            <h1>Sign Up</h1>
-        </div>
     </div>
     <style jsx>{`
-    #signup-form{
-        background: url(../static/img/signup-img.png) center fixed; 
-        background-size: cover;
+    .row{
+        background:url(../static/img/signup-img.png) no-repeat center;
+        background-size:100%;
     }
-    h1{
-        text-decoration:underLine;
-        text-align:center;
-    }
+
     `}</style>
-</Layout>
+</div>
+
 )

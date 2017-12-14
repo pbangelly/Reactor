@@ -13,14 +13,14 @@ export default (props) =>(
         padding:0px;
         margin:0px;
         box-sizing: border-box;
+        box-shadow: 200px;
     }
     .grid-container{
         display:grid;
     }
-    @media only screen and (min-width: 500px) {
-        .grid-container {
-               /* styles */
-           }
+    .row{
+        display:grid;
+    }
     h1{
         font-size:50px;
         color:#ffffff;
@@ -49,10 +49,12 @@ export default (props) =>(
     .footer{
         color:white;
         background-color:darkBlue;
-        padding:20px;
-        margin-top:20px;
         text-align:center;
     }
+    @media only screen and (min-width: 500px) {
+        .grid-container {
+               /* styles */
+           }
     `}
     </style>
     </div> 
