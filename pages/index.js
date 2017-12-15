@@ -1,9 +1,9 @@
-import Layout from "./comps/Layout"
-import Banner from "./landing/Banner"
-import Sec1 from "./landing/Sec1"
-import Sec2 from "./landing/Sec2"
-import Sec3 from "./landing/Sec3"
-import Subscribe from "./landing/Subscribe"
+import Layout from "../comps/Layout"
+import Banner from "../comps/landing/Banner"
+import Sec1 from "../comps/landing/Sec1"
+import Sec2 from "../comps/landing/Sec2"
+import Sec3 from "../comps/landing/Sec3"
+import Subscribe from "../comps/landing/Subscribe"
 
 
 export default () =>(

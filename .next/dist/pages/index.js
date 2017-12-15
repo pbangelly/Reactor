@@ -8,27 +8,27 @@ var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Layout = require("./comps/Layout");
+var _Layout = require("../comps/Layout");
 
 var _Layout2 = _interopRequireDefault(_Layout);
 
-var _Banner = require("./landing/Banner");
+var _Banner = require("../comps/landing/Banner");
 
 var _Banner2 = _interopRequireDefault(_Banner);
 
-var _Sec = require("./landing/Sec1");
+var _Sec = require("../comps/landing/Sec1");
 
 var _Sec2 = _interopRequireDefault(_Sec);
 
-var _Sec3 = require("./landing/Sec2");
+var _Sec3 = require("../comps/landing/Sec2");
 
 var _Sec4 = _interopRequireDefault(_Sec3);
 
-var _Sec5 = require("./landing/Sec3");
+var _Sec5 = require("../comps/landing/Sec3");
 
 var _Sec6 = _interopRequireDefault(_Sec5);
 
-var _Subscribe = require("./landing/Subscribe");
+var _Subscribe = require("../comps/landing/Subscribe");
 
 var _Subscribe2 = _interopRequireDefault(_Subscribe);
 
