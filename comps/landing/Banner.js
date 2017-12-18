@@ -1,10 +1,6 @@
 export default () =>(
 <section>
-
-    <h1>
-        Hello, Welcome to Reactor
-    </h1>
-
+    <h1>Hello, Welcome to Reactor</h1>
     <style jsx>{`
         section {
             display: flex;

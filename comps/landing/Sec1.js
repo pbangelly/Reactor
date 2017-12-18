@@ -41,7 +41,6 @@ export default ()=> (
     p{
         letter-spacing: 0.2px;
         line-height: 2;
-        width:350px;
     }
     `}</style>
 </div>

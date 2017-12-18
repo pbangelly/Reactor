@@ -7,7 +7,7 @@ export default () =>(
                 <h5>East Josianfurt</h5>
                 <p>085 Daron Via</p>
             </div>
-
+            
             <div className="col">
                 <img src="../static/img/building.png" alt="Buildings"/>
                 <h5>South Cristopherport</h5>
@@ -27,6 +27,9 @@ export default () =>(
             </div>
         </div>
         <style jsx>{`
+        h5{
+            padding-top:10px;
+        }
         .row{
             grid-template-columns: repeat(4, 1fr);
             width:auto;
@@ -38,7 +41,7 @@ export default () =>(
         }
         .gallery-title{
             text-align:center;
-            padding: 15px;
+            padding: 25px;
             margin: 15px;
         }
         img{

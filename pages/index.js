@@ -5,7 +5,6 @@ import Sec2 from "../comps/landing/Sec2"
 import Sec3 from "../comps/landing/Sec3"
 import Subscribe from "../comps/landing/Subscribe"
 
-
 export default () =>(
 <Layout>
     <Banner/>
@@ -13,5 +12,14 @@ export default () =>(
     <Sec2/>
     <Sec3/>
     <Subscribe/>
+    <footer>Footer</footer>
+    <style jsx>{`
+            footer {
+                color:white;
+                background-color:darkSlateBlue;
+                text-align:center;
+                padding:50px;
+            }
+    `}</style>
 </Layout>
 )

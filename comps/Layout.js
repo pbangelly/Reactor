@@ -8,20 +8,14 @@ export default (props) =>(
     </Head>
     <div className="header">
         <div className="container">
-            <span>Reactor</span>
+            <h6>Reactor</h6>
         </div>
     </div>
     {props.children}
-    <footer>Footer</footer>
     <style jsx global>{`
     *{
         padding:0px;
-        margin:0px;
-        box-sizing: border-box;
-    }
-    .container {
-        max-width: 90%;
-        margin: 0 auto;
+        margin: 0px;
     }
     .row{
         display:grid;
@@ -49,7 +43,6 @@ export default (props) =>(
     p{
         font-size:16px;
         color:#1e3656;
-        color:grey;
     }
     `}</style>
     <style jsx>{`
@@ -59,16 +52,11 @@ export default (props) =>(
             width: 100%;
             display: block;
         }
-        span {
-            display: inline-block;
-            margin-top:1em;
-            font-size: 1.5rem;
-        }
-        footer {
-            color:white;
-            background-color:darkBlue;
-            text-align:center;
+        h6 {
+            font-size:1rem;
+            margin:1em;
+            margin-left:3em;
         }
     `}</style>
-    </div> 
+</div> 
 )
