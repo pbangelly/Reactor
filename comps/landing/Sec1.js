@@ -1,16 +1,16 @@
-export default ()=> (
-<div className='row' id='about'>
-<div className='col title'>
-<h2>What We Do</h2>
-</div>
-<div className='col info'>
-<h3 style={{paddingBottom:'5px'}}>We do</h3>
-<p>
+export default () => (
+  <div className='row' id='about'>
+    <div className='col title'>
+      <h2>What We Do</h2>
+    </div>
+    <div className='col info'>
+      <h3 style={{paddingBottom: '5px'}}>We do</h3>
+      <p>
     The quick brown fox jumps over the lazy dog.
     Djs flok by when MTV quiz prog.
     Junk MTV quiz graced by fox whelps.
     Bawd jog, flick quartz, vex nymphs.
-    </p>
+      </p>
     </div>
     <style jsx>{`
     .row{
@@ -43,5 +43,5 @@ export default ()=> (
         line-height: 2;
     }
     `}</style>
-</div>
+  </div>
 )

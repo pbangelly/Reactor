@@ -1,12 +1,12 @@
 import Layout from '../comps/Layout'
 import Form from '../comps/accounts/Form'
 
-export default ()=> (
-<Layout>
-  <section>
+export default () => (
+  <Layout>
+    <section>
       <Form/>
-  </section>
-  <style jsx>{`
+    </section>
+    <style jsx>{`
   div {
         position: absolute;
         top: 0;
@@ -24,5 +24,5 @@ export default ()=> (
         align-items: center;
       }
     `}</style>
-</Layout>
+  </Layout>
 )

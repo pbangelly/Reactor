@@ -1,33 +1,33 @@
-export default () =>(
-<div className='row'>
-        <div className='row cooking'>
-            <div className='col'>
-            <img src="../static/img/desk.png" alt="Desk and chair"/>
-            </div>
-            <div className="cooking-info">
-            <h5>Regional Cuisine Down Home Southern Cooking</h5>
-            <p>
+export default () => (
+  <div className='row'>
+    <div className='row cooking'>
+      <div className='col'>
+        <img src="../static/img/desk.png" alt="Desk and chair"/>
+      </div>
+      <div className="cooking-info">
+        <h5>Regional Cuisine Down Home Southern Cooking</h5>
+        <p>
             The quick brown fox jumps over the lazy dog.
             Djs flok by when MTV quiz prog.
             Junk MTV quiz graced by fox whelps.
             Bawd jog, flick quartz, vex nymphs.</p>
-            </div>
-        </div>
-        
-        <div className='row hardware'>
-            <div className='col'>
-            <img src="../static/img/bowl.png" alt="Bowl and Coffee"/>
-            </div>
-                <div className= "hardware-info">
-                    <h5>Pos Hardware More Options In Less Space</h5>
-                    <p>
+      </div>
+    </div>
+
+    <div className='row hardware'>
+      <div className='col'>
+        <img src="../static/img/bowl.png" alt="Bowl and Coffee"/>
+      </div>
+      <div className= "hardware-info">
+        <h5>Pos Hardware More Options In Less Space</h5>
+        <p>
                     The quick brown fox jumps over the lazy dog.
                     Djs flok by when MTV quiz prog.
                     Junk MTV quiz graced by fox whelps.
                     Bawd jog, flick quartz, vex nymphs.</p>
-                </div>
-        </div>
-<style jsx>{`
+      </div>
+    </div>
+    <style jsx>{`
 .row{
     grid-template-columns: 1fr 1fr;
     background-color:#f1faef;
@@ -42,6 +42,6 @@ h5{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 `}</style>
-</div>
+  </div>
 
 )

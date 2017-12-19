@@ -1,15 +1,15 @@
 import Head from 'next/head'
 
-export default (props) =>(
-<div>
+export default (props) => (
+  <div>
     <Head>
       <title>Reactor</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
     </Head>
     <div className="header">
-        <div className="container">
-            <h6>Reactor</h6>
-        </div>
+      <div className="container">
+        <h6>Reactor</h6>
+      </div>
     </div>
     {props.children}
     <style jsx global>{`
@@ -58,5 +58,5 @@ export default (props) =>(
             margin-left:3em;
         }
     `}</style>
-</div> 
+  </div>
 )

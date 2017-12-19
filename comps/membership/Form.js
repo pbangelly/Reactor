@@ -2,13 +2,13 @@ export default ({activePanel = 'signup'}) => (
   <div>
     <ul>
       <li>Sign Up</li>
-      <li style={{paddingLeft:"25px"}}>Login</li>
+      <li style={{paddingLeft: '25px'}}>Login</li>
     </ul>
     <form>
       { activePanel === 'signup' ? <div className="input">
         <input placeholder="email" type="email" />
       </div> : null}
-  
+
       <div className="input">
         <input placeholder="Password" type="password" />
       </div>

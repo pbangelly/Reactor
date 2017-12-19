@@ -1,22 +1,13 @@
-export default () =>(
-<form>
-  <br/>
-<div className="container">
-<h2>Subscribe to Newletter</h2>
-  <div className='subscribe'>
-    <input type="text" placeholder="Enter Email" name="email" required/>
-    <button className="button">Subscribe</button>
-  </div>
-  {/* <label><b>Email </b></label> */}
-  {/* <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-
-
-  <div className="clearfix">
-    <button type="button"  className="cancelbtn">Cancel</button>
-    <button type="submit" className="signupbtn">Sign Up</button>
-  </div> */}
-</div>
-<style jsx>{`
+export default ({clickHandler}) => (
+  <form>
+    <div className="container">
+      <h2>Subscribe to Newletter</h2>
+      <div className='subscribe'>
+        <input type="text" placeholder="Enter Email" required/>
+        <button className="button" onClick={clickHandler} value="Send" accessKey="s">Subscribe</button>
+      </div>
+    </div>
+    <style jsx>{`
 form{
   display: flex;
   height: 200px;
@@ -49,5 +40,5 @@ h2{
 }
 
 `}</style>
-</form>
+  </form>
 )
