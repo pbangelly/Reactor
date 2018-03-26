@@ -3,59 +3,37 @@ import Head from 'next/head'
 export default ({ subscribed, accountForm, children }) => (
   <div>
     <Head>
-      <title>Reactor</title>
-      <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+      <title>ETU - Extreme Travelers Unite</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </Head>
-    <div className="header">
-      <div className="container">
-        <h6>Reactor</h6>
+    <div>
+      <div className="header">
+        <div className="logo">E. T. U.</div>
       </div>
+
+      {children}
+
     </div>
-    {children}
-    <style jsx global>
-      {`
-          *{
-          padding:0px;
-          margin: 0px;
+    <style jsx global>{`
+    *{
+      padding:0px;
+      margin: 0px;
           }
-          .row{
-          display:grid;
-          }
-          h1{
-          font-size:50px;
-          color:#ffffff;
-          }
-          h2{
-          font-size:32px;
-          color:#e43c4b;
-          }
-          h3{
-          font-size:24px;
-          color:#272727;
-          }
-          h4{
-          font-size:20px;
-          color:#272727;
-          }
-          h5{
-          font-size:18px;
-          color:#413d3d;
-          }
-          p{
-          font-size:16px;
-          color:#1e3656;
-          }
+      .row{
+        display:grid;
+      }
         `}
     </style>
-    <style jsx>
-      {`
-          div.header {
+    <style jsx>{`
+          .header {
           position: absolute;
+          display: block;
           color: white;
           width: 100%;
-          display: block;
+          height:auto; 
           }
-          h6 {
+         .logo{
+           color:pink;
           font-size:1rem;
           margin:1em;
           margin-left:3em;

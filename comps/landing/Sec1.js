@@ -1,47 +1,35 @@
+import Subscribe from './Subscribe'
+
 export default () => (
-  <div className='row' id='about'>
-    <div className='col title'>
-      <h2>What We Do</h2>
-    </div>
-    <div className='col info'>
-      <h3 style={{paddingBottom: '5px'}}>We do</h3>
+  <div className='row'>
+    <div className='col'>
       <p>
-    The quick brown fox jumps over the lazy dog.
-    Djs flok by when MTV quiz prog.
-    Junk MTV quiz graced by fox whelps.
-    Bawd jog, flick quartz, vex nymphs.
+        <h3>The Mission</h3>
+          Are you a Nomad? An Entrepreneur? Startup Junky? Adrenaline Junky?
+        <br />
+          Come Join One of the Most Thrilling, Cultural, Active Communities.
+        <br />
+          Learn some the best-kept secrets from all over the world!
+        <br />
+        <em>Subscribe to Join the Community and Find Out First!</em>
+        <Subscribe/>
       </p>
     </div>
     <style jsx>{`
-    .row{
-        position: relative;
-        padding:150px;
-        grid-template-columns: 3fr 1fr;     
-    }
-    .title{
-        position:absolute;
-        top:35%;
-        left: 25%;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 3;
-    }
-    .info{
-        width:500px;
-        line-spacing:0.2px;
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 3;
-    }
-    h3{
-        color:grey;        
+    em{
+      color:red;
+      font-size: 18px;
     }
     p{
-        letter-spacing: 0.2px;
-        line-height: 2;
-    }
+      text-align:center;
+      letter-spacing: 0.2px;
+      line-height: 1.5;
+      font-size:20px;
+      padding:25px;
+      margin:25px;
+      opacity:0.5;
+  }
     `}</style>
   </div>
+
 )
